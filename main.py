@@ -4,8 +4,6 @@ import economey_cmd as ec
 import fishing_cmd as fish
 import random
 
-# A list of bad words that people should not say.
-
 TOKEN = ""
 
 
