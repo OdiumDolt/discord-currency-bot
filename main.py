@@ -5,17 +5,8 @@ import fishing_cmd as fish
 import random
 
 # A list of bad words that people should not say.
-bad_words = {
-    "n word":["nigga", "nigger"],
-    "gay things":["faggot", "im gay", "i like dick", "i like men", "i suck dick", 
-    "i want 10 big black men to ejaculate on my spine", "cum is tasty", "nut in my mouth",
-    "i play chamber", "cum"],
-    "cringe":["pog", "fortnite", "why am i the designated bully person", "rgx", "i deserve gold",
-    "nle chopper", "rocket league", "among us", "i never bought a op", "saxophone instrumental", 
-    "billie eilish by armani white", "uwu", "old town road", "genshin"]
-}
 
-TOKEN = "MTAwNDg1ODY0MzUzNzE5OTE3Ng.G83AV7.HR0lZq9ZH5kWHIGugwSr5Xb2As4TPMin4L-BFw"
+TOKEN = ""
 
 
 # Initilize Discord Client
@@ -39,20 +30,6 @@ async def on_message(message):
     if message.content[0] == "!":
 
         # ADD COMMANDS
-
-        # Send a formated list of a persons bad words
-        if message.content[1:len("badwords") + 1] == "badwords":
-            try:
-                message.content = message.content[len("badwords") + 2:]
-                user = helper.read_file(["user_data", "user_data"])[message.content.lower()]
-                send_data = message.content + " has said:"
-                for i in user:
-                    send_data += "\n" + i + ": " + str(user[i])
-                await message.channel.send(send_data)
-            except KeyError:
-                await message.channel.send("That person hasn't said anything yet")
-
-        # THE ECO COMMANDS
         elif message.content[1:len("e") + 1] == "e":
 
             message.content = message.content[len("e") + 2:]
@@ -97,29 +74,14 @@ async def on_message(message):
                         await message.channel.send(":white_check_mark: You Won " + str(round(float(message.content[1]), 2)) + " Points! :white_check_mark:")
                     helper.write_file(["wallets", "wallets"], wallets)
                 else:
-                    await message.channel.send("You dont have that much you monkey :monkey:")
+                    await message.channel.send("You dont have that much money!")
             
             elif message.content[0] == "fish":
                 await fish.fishing_cmd(message)
     
     
     else:
-
-        have_said = helper.find_words(message.content, bad_words)
-
-        try:
-            user_data = helper.read_file(["user_data", "user_data"])
-            user_data[message.author.name.lower()]
-        except KeyError:
-            user_data[message.author.name.lower()] = {}
-            for i in bad_words:
-                user_data[message.author.name.lower()][i] = 0
-        
-        for i in have_said:
-            user_data[message.author.name.lower()][i] += have_said[i]
-
-        if len(have_said) != 0:
-            helper.write_file(["user_data", "user_data"], user_data)
+        await message.channel.send("commands must start with !e"
 
 
 
