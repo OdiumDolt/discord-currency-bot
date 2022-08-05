@@ -1,0 +1,30 @@
+{
+    "angeo_pause":{
+        "location":"./fishing_items/angeo_pause.jpg",
+        "name":"angeo_pause"
+    },
+    "eme_baby":{
+        "location":"./fishing_items/eme_baby.jpg",
+        "name":"eme_baby"
+    },
+    "eme_cbum":{
+        "location":"./fishing_items/eme_cbum.jpg",
+        "name":"eme_cbum"
+    },
+    "hummus_ass":{
+        "location":"./fishing_items/hummus_ass.jpg",
+        "name":"hummus_ass"
+    },
+    "hummus_valentine":{
+        "location":"./fishing_items/hummus_valentine.jpg",
+        "name":"hummus_valentine"
+    },
+    "jo_happy":{
+        "location":"./fishing_items/jo_happy.png",
+        "name":"jo_happy"
+    },
+    "rohn_upset":{
+        "location":"./fishing_items/rohn_upset.jpg",
+        "name":"rohn_upset"
+    }
+}

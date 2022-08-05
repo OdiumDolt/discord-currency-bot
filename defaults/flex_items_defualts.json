@@ -1,0 +1,117 @@
+{
+    "angeo_thirsty": {
+        "location": "./flex_items/angeo_thirsty.jpg",
+        "quantity": 20,
+        "cost": 500
+    },
+    "brady_ass": {
+        "location": "./flex_items/brady_ass.png",
+        "quantity": 2,
+        "cost": 5000
+    },
+    "brady_downy": {
+        "location": "./flex_items/brady_downy.png",
+        "quantity": 10,
+        "cost": 1000
+    },
+    "brady_gymnastics": {
+        "location": "./flex_items/brady_gymnastics.jpg",
+        "quantity": 10,
+        "cost": 1000
+    },
+    "brady_poggers": {
+        "location": "./flex_items/brady_poggers.jpg",
+        "quantity": 5,
+        "cost": 2000
+    },
+    "brady_stacked": {
+        "location": "./flex_items/brady_stacked.jpg",
+        "quantity": 5,
+        "cost": 2000
+    },
+    "bradys_a_good_boy": {
+        "location": "./flex_items/bradys_a_good_boy.jpg",
+        "quantity": 3,
+        "cost": 3500
+    },
+    "christian_crocks": {
+        "location": "./flex_items/christian_crocks.jpg",
+        "quantity": 3,
+        "cost": 3500
+    },
+    "christian_nose": {
+        "location": "./flex_items/christian_nose.jpg",
+        "quantity": 10,
+        "cost": 1000
+    },
+    "dylan_cute": {
+        "location": "./flex_items/dylan_cute.jpg",
+        "quantity": 10,
+        "cost": 1000
+    },
+    "dylan_native": {
+        "location": "./flex_items/dylan_native.jpg",
+        "quantity": 2,
+        "cost": 5000
+    },
+    "hummus_ass_clothed": {
+        "location": "./flex_items/hummus_ass_clothed.png",
+        "quantity": 5,
+        "cost": 2000
+    },
+    "hummus_balling": {
+        "location": "./flex_items/hummus_balling.jpg",
+        "quantity": 5,
+        "cost": 2000
+    },
+    "hummus_hair": {
+        "location": "./flex_items/hummus_hair.jpg",
+        "quantity": 10,
+        "cost": 1000
+    },
+    "hummus_horny": {
+        "location": "./flex_items/hummus_horny.jpg",
+        "quantity": 30,
+        "cost": 200
+    },
+    "hummus_hungry": {
+        "location": "./flex_items/hummus_hungry.jpg",
+        "quantity": 3,
+        "cost": 3500
+    },
+    "hummus_hype": {
+        "location": "./flex_items/hummus_hype.jpg",
+        "quantity": 2,
+        "cost": 5000
+    },
+    "hummus_ripped": {
+        "location": "./flex_items/hummus_ripped.jpg",
+        "quantity": 2,
+        "cost": 5000
+    },
+    "hummus_small": {
+        "location": "./flex_items/hummus_small.jpg",
+        "quantity": 10,
+        "cost": 1000
+    },
+    "hummus_suit": {
+        "location": "./flex_items/hummus_suit.jpg",
+        "quantity": 3,
+        "cost": 3500
+    },
+    "jo_moped": {
+        "location": "./flex_items/jo_moped.png",
+        "quantity": 5,
+        "cost": 2000
+    },
+    "stinky": {
+        "location": "./flex_items/stinky.png",
+        "quantity": 10,
+        "cost": 1000
+    },
+    "unicorn_hummus": {
+        "location": "./flex_items/unicorn_hummus.jpg",
+        "quantity": 1,
+        "cost": 10000
+    }
+}

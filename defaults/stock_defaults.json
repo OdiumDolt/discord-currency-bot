@@ -1,0 +1,143 @@
+{
+    "stocks": {
+        "BRA": {
+            "price": 10,
+            "price_changes": [
+                0,
+                78,
+                14,
+                8
+            ],
+            "value_change": {
+                "high_gain": [
+                    1.1,
+                    1.1
+                ],
+                "low_gain": [
+                    1.01,
+                    1.02
+                ],
+                "low_loss": [
+                    0.99,
+                    0.98
+                ],
+                "high_loss": [
+                    0.9,
+                    0.85
+                ]
+            }
+        },
+        "RHN": {
+            "price": 350,
+            "price_changes": [
+                5,
+                49,
+                41,
+                5
+            ],
+            "value_change": {
+                "high_gain": [
+                    1.07,
+                    1.1
+                ],
+                "low_gain": [
+                    1.01,
+                    1.02
+                ],
+                "low_loss": [
+                    0.99,
+                    0.975
+                ],
+                "high_loss": [
+                    0.9,
+                    0.93
+                ]
+            }
+        },
+        "EME": {
+            "price": 250,
+            "price_changes": [
+                10,
+                42,
+                38,
+                10
+            ],
+            "value_change": {
+                "high_gain": [
+                    1.05,
+                    1.1
+                ],
+                "low_gain": [
+                    1.02,
+                    1.05
+                ],
+                "low_loss": [
+                    0.98,
+                    0.95
+                ],
+                "high_loss": [
+                    0.9,
+                    0.95
+                ]
+            }
+        },
+        "HUM": {
+            "price": 500,
+            "price_changes": [
+                2.5,
+                60,
+                40,
+                2.5
+            ],
+            "value_change": {
+                "high_gain": [
+                    1.02,
+                    1.03
+                ],
+                "low_gain": [
+                    1.0025,
+                    1.0075
+                ],
+                "low_loss": [
+                    0.9975,
+                    0.9925
+                ],
+                "high_loss": [
+                    0.98,
+                    0.97
+                ]
+            }
+        },
+        "D'ANG": {
+            "price": 50,
+            "price_changes": [
+                20,
+                30,
+                30,
+                20
+            ],
+            "value_change": {
+                "high_gain": [
+                    1.11,
+                    1.16
+                ],
+                "low_gain": [
+                    1.03,
+                    1.06
+                ],
+                "low_loss": [
+                    0.97,
+                    0.96
+                ],
+                "high_loss": [
+                    0.9,
+                    0.85
+                ]
+            }
+        }
+    },
+    "info": {
+        "last_update": 1659511120.7525747,
+        "last_month": 1659337200.236324
+    }
+}
