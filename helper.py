@@ -22,31 +22,6 @@ def read_file(location):
 def write_file(location, data):
     db.collection(location[0]).document(location[1]).set(data)
 
-# find the bad workds people have said
-def find_words(message, words):
-    bad_words = {}
-    # initlize bad word counter
-    # TODO init this in a faster way. Maybe once in the main file
-    for i, index in enumerate(words):
-        bad_words[index] = 0
-
-    # for every catergory
-    for category in words:
-        # for every word in that catagory
-        for word in words[category]:
-            # avoid uppercase spelling
-            temp_message = message.lower()
-            # go through the whole message until no more words can be found
-            while True:
-                if temp_message.find(word.lower()) != -1:
-                    bad_words[category] += 1
-                    temp_message = temp_message[message.find(word.lower()) + len(word):]
-                else:
-                    break
-
-    return bad_words
-
-
 def update_stocks():
     stocks = read_file(["stocks", "stocks"])
     wallets = read_file(["wallets", "wallets"])
